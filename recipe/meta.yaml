@@ -33,6 +33,7 @@ requirements:
     - r-rlang
     - r-vctrs
     - r-xml2
+    - r-yaml
   run:
     - r-base
     - r-r6
@@ -42,6 +43,7 @@ requirements:
     - r-rlang
     - r-vctrs
     - r-xml2
+    - r-yaml
 
 test:
   commands:
