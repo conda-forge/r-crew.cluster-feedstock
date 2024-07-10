@@ -1,4 +1,4 @@
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/crew.cluster_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/crew.cluster/crew.cluster_{{ version }}.tar.gz
-  sha256: 0ece856f91b4322d10ecab77163d706b5fd80ea082d7ef1f3b6479077dbfc3e2
+  sha256: c825a46a646b5ab4e056a2e96e4e53f2d6bf6df3b99f61ae3c2f12f303cd80d8
 
 build:
   merge_build_host: true  # [win]
