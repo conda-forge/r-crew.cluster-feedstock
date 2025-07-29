@@ -25,7 +25,7 @@ requirements:
   host:
     - r-base
     - r-r6
-    - r-crew >=0.8.0
+    - r-crew >=1.2.0
     - r-lifecycle
     - r-ps
     - r-rlang
@@ -35,7 +35,7 @@ requirements:
   run:
     - r-base
     - r-r6
-    - r-crew >=0.8.0
+    - r-crew >=1.2.0
     - r-lifecycle
     - r-ps
     - r-rlang
