@@ -1,4 +1,4 @@
-{% set version = "0.3.7" %}
+{% set version = "0.3.8" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/crew.cluster_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/crew.cluster/crew.cluster_{{ version }}.tar.gz
-  sha256: 066eeab3df2ed86b198b3b7c6956a8629ea0324106120c8575604b66f608d8ed
+  sha256: 99fa0ea3efa203d92638cce3a26dc280f155db4e45997b1530813eb675efd197
 
 build:
   number: 0
@@ -25,7 +25,7 @@ requirements:
   host:
     - r-base
     - r-r6
-    - r-crew >=0.8.0
+    - r-crew >=1.2.0
     - r-lifecycle
     - r-ps
     - r-rlang
@@ -35,7 +35,7 @@ requirements:
   run:
     - r-base
     - r-r6
-    - r-crew >=0.8.0
+    - r-crew >=1.2.0
     - r-lifecycle
     - r-ps
     - r-rlang
